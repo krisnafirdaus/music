@@ -15,7 +15,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import MusicItem from './MusicItem.vue'
-import type { MusicItem as MusicItemType } from '@/types'
+import type { MusicItem as MusicItemType } from '../types'
 
 const props = defineProps<{
   searchTerm: string,

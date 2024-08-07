@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
-import dummyData from '@/assets/dummyData.json'
-import type { MusicItem } from '@/types'
+import dummyData from '../assets/dummyData.json'
+import type { MusicItem } from '../types'
 
 interface MusicState {
   searchResults: MusicItem[]

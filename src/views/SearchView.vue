@@ -45,7 +45,7 @@ import { useRoute, useRouter } from "vue-router";
 import { useMusic } from "../store/music";
 import SearchBar from "../components/SearchBar.vue";
 import MusicList from "../components/MusicList.vue";
-import CurvedHeader from "@/components/CurvedHeader.vue";
+import CurvedHeader from "../components/CurvedHeader.vue";
 
 const route = useRoute();
 const router = useRouter();
